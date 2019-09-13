@@ -17,5 +17,6 @@ def self.clear_all
 end
 
 def self.print_all 
-  @@all.each do {|name| print 
+  @@all.each do |name| 
+    puts "{#name}"
 end 
